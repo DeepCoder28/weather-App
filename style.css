@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 3rem 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  border: 10px solid teal;
+  margin: 1rem;
+  border-radius: 30px;
+}
+
+form {
+  display: flex;
+  margin: 0 0.5rem;
+}
+
+form input {
+  padding: 1.1rem;
+  border-radius: 30px;
+  font-size: 2rem;
+  outline: none;
+}
+
+form button {
+  font-size: 2rem;
+  padding: 1.1rem;
+  border-radius: 30px;
+  margin-left: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.temperature {
+  color: rgb(87, 166, 240);
+}
+
+.degree {
+  font-size: 2rem;
+
+  color: red;
+}
